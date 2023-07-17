@@ -152,6 +152,7 @@ img:hover{
         width: 100vw;
         flex-wrap: wrap;
         align-items: center;
+        padding-left: 3%;
     }
     .menu{
         display: none;
