@@ -135,15 +135,16 @@ img:hover{
     cursor: pointer;
 }
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:450px) {
     header{
         width: 100vw;
         flex-wrap: wrap;
         height: 110px;
+        gap: 0;
     }
     .logo{
-        font-size: 1.3rem;
-        padding-top: 10px;
+        font-size: 1.5rem;
+        padding-top: 5px;
     }
     .text{
         width: 75vw;
@@ -166,6 +167,6 @@ img:hover{
     footer{
         flex-direction: column;
         height: auto;
-        padding-left: 10px;
+        padding-left: 30px;
     }
 }
